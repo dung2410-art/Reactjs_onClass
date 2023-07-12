@@ -1,0 +1,38 @@
+div {
+    width: 550px;
+    height: 150px;
+    float: left;
+    margin: 25px;
+    padding: 10px;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(223, 216, 214);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(199, 199, 199);
+    border-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(21, 152, 228);
+    border-radius: 1px;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+
+}
