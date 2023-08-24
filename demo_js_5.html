@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/demojs5.css">
+</head>
+<body>
+    <div id="fanX" class="box" onmouseenter="demo1()" onmouseleave="demo2()">
+        Mouse here
+    </div>   
+    <button type="button" onclick="fan1()">start</button>
+    <button type="button" onclick="off()">end</button>
+    <button type="button" onclick="fan1()">level 1</button>
+    <button type="button" onclick="fan2()">level 2</button>
+    <button type="button" onclick="fan3()">level 3</button>
+    <h2 id="ct"></h2>
+    <input id="ipx" type="text" name="inputdemo"
+        onkeydown="input1()"
+        onkeyup="input2()"
+    />
+    <select id="slx" onchange="">
+        <option value="hn">Hà Nội</option>
+        <option value="sg">Sài Gòn</option>
+    </select>
+    <script type="text/javascript" src="js/js_demo5.js"></script>
+</body>
+</html>
